@@ -1,0 +1,24 @@
+{
+  "name": "kevoree-compare",
+  "version": "1.0.0",
+  "description": "Kevoree Modeling Framework Compare tool - Using Kevoree MetaModel",
+  "bin": {
+    "kevoree-compare": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kevoree",
+    "kmf",
+    "compare",
+    "model"
+  ],
+  "author": "Maxime Tricoire <max.tricoire@gmail.com>",
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "commander": "^2.3.0",
+    "kevoree-library": "^5.0.4"
+  }
+}
